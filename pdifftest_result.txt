@@ -1,0 +1,24 @@
+%% Observation and Conclusion:
+
+% Output:
+% pdifftest
+% For h = w = 0.200:
+%  maximum absolute error for derivative w.r.t x is 6.653346e-03
+%  maximum absolute error for derivative w.r.t y is 1.110223e-15.
+% 
+% For h = w = 0.100:
+%  maximum absolute error for derivative w.r.t x is 1.665834e-03
+%  maximum absolute error for derivative w.r.t y is 2.442491e-15.
+% 
+% For h = w = 0.050:
+%  maximum absolute error for derivative w.r.t x is 4.166146e-04
+%  maximum absolute error for derivative w.r.t y is 3.774758e-15.
+
+% Observation & Comments:
+% It can be clearly observed that the max error in the estimation for the
+% derivative wrt to x decreases as the sampling width decreases while for
+% the derivative wrt y the max error actually increases as the sampling width
+% decreases. This might possibly be because in the range of x greater than
+% pi the linear approxmation for the sin function in the estimated formulae
+% becomes worse and hence the error becomes bigger as the sampling window is
+% magnified.
